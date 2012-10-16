@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name='description' content='SMS to 10086' >
+<meta name='author' content='CashLee' >
+<title>便捷短信</title>
+<link rel='stylesheet' type='text/css' href='css/index.css' />
+<!-- 
+<script type='text/javascript' language='javascript' src='lib/cordova-1.7.0.js'></script>
+<script type='text/javascript' language='javascript' src='lib/SMSComposer.js'></script>
+<script type='text/javascript' language='javascript' src='lib/ActionSheet.js'></script>
+<script type='text/javascript' language='javascript' src='lib/weixin_api.js'></script>
+<script type='text/javascript' language='javascript' src='lib/weixin.js'></script>
+<script type='text/javascript' language='javascript' src='lib/zepto.min.js'></script>
+-->
+<script type='text/javascript' language='javascript' src='lib/cordova-2.1.0.js'></script>
+<script data-main="index.js" src="require.js"></script>
+</head>
+<body>
+  <div id='header'><select></select><button onclick="showConfirmBox();">Confirm</button></div>
+  <div id="wrapper">
+    <ul id="scroller">
+    </ul>
+  </div>
+</body>
+</html>
